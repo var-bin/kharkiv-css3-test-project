@@ -1,0 +1,33 @@
+{
+  "name": "kharkiv-css3-test-project",
+  "version": "1.0.0",
+  "description": "Repo for testing tools such as Stylelint, Prettier, Autoprefixer, ext.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://var-bin@github.com/var-bin/kharkiv-css3-test-project.git"
+  },
+  "keywords": [
+    "KharkivCSS3",
+    "KharkivCSS",
+    "styleguide",
+    "styleguide-css",
+    "CSS"
+  ],
+  "author": "Vitalii Rybka, @var_bincom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/var-bin/kharkiv-css3-test-project/issues"
+  },
+  "homepage": "https://github.com/var-bin/kharkiv-css3-test-project#readme",
+  "devDependencies": {
+    "husky": "^0.15.0-rc.13",
+    "lint-staged": "^7.0.4",
+    "prettier": "1.11.1",
+    "stylelint": "^9.2.0",
+    "stylelint-config-standard": "^18.2.0"
+  }
+}
