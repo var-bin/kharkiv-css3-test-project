@@ -1,0 +1,112 @@
+// carousel variables
+
+
+.o-items-carousel-holder {
+  ._radius();
+  ._shadow(1px 2px 7px fade(#000, 65%));
+  margin: 7px;
+  overflow: hidden;
+}
+.o-items-carousel-holder,
+.item-carousel {
+  width: 312px;
+}
+
+.items-carousel-list {
+  width: 10000px;
+  .item-carousel {
+    display: block;
+    text-align: center;
+    float: left;
+  }
+}
+
+.item-carousel {
+  .item-carousel-image {
+    margin-bottom: 7px;
+    height: 200px;
+  }
+  .item-carousel-describe {
+    text-align: left;
+    padding: 0 12px;
+  }
+  .short-describe {
+    margin: 6px 0 4px;
+    font-size: 9px;
+  }
+}
+
+.item-carousel-btn-holder {
+  padding: 0 9px;
+  clear: both;
+  overflow: hidden;
+  margin-bottom: 10px;
+  .items-carousel-nav {
+    font-size: 0;
+  }
+  .items-carousel-to-store {
+    ._clearfix();
+    float: right;
+  }
+  .btn {
+    ._gradient(#fff, #e9e9e9);
+    font-size: 0;
+    line-height: 0;
+    .btn-title,
+    .btn-icon {
+      display: inline-block;
+      vertical-align: middle;
+      *display: inline;
+      *zoom: 1;
+    }
+    .btn-title {
+      font-size: 10px;
+      line-height: 12px;
+      font-weight: 700;
+      padding-top: 6px;
+      padding-bottom: 6px;
+    }
+    .separator {
+      background-color: #fff;
+    }
+    .btn-icon {
+      .icon {
+        background-repeat: no-repeat;
+      }
+    }
+    &.btn-prev {
+      margin-right: 3px;
+      .icon {
+        ._sprite(@btn_ic_gray_left);
+      }
+    }
+    &.btn-next {
+      .icon {
+        ._sprite(@btn_ic_gray_right);
+      }
+    }
+    &.to-store {
+      display: inline-block;
+      *display: inline;
+      zoom: 1;
+      .icon {
+        width: 0;
+        height: 0;
+        border-left: 14px solid @theme-link-color;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+        border-right: 0;
+      }
+    }
+    &:hover {
+      .btn-title {
+        ._gradient(#fe7f1e, #fc4603);
+        color: #fff;
+        text-shadow: 1px 1px 0 fade(#000, 85%);
+      }
+      .separator {
+        display: none;
+      }
+    }
+  }
+}

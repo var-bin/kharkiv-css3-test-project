@@ -1,0 +1,133 @@
+/* custom styles */
+
+.slide::after {
+  background-image: url("../pictures/ribbon-180.svg");
+  top: auto;
+  right: 30px;
+  bottom: -35px;
+}
+
+.slide .photographer-credit {
+  background-color: var(--black);
+  color: var(--white);
+  text-decoration: none;
+  padding: 4px 6px;
+  font: bold 12px/1.2 var(--photographer-credit-font_family);
+  border-radius: 3px;
+  position: absolute;
+  left: 2em;
+  bottom: 2em;
+}
+
+.photographer-credit span {
+  display: inline-block;
+  padding:2px 3px;
+}
+
+.photographer-credit svg {
+  height: 12px;
+  width: auto;
+  position: relative;
+  vertical-align: middle;
+  top: -1px;
+  fill: var(--white);
+}
+
+.cover_full-width {
+  width: 100%;
+}
+
+#cover h2 {
+  font-size: var(--cover-title-font_size);
+  text-align: center;
+}
+
+#cover p {
+  font-size: var(--cover-p-font_size);
+  text-align: center;
+}
+
+#cover .author {
+  color: var(--link-color);
+}
+
+.slide_teacher-info {
+  padding-right: 40px;
+  padding-left: 30px;
+}
+
+.slide__teacher-info-holder,
+.slide__tools-list,
+.slide__list {
+  display: flex;
+}
+
+.slide__teacher-ava {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  position: relative;
+  background: url("../pictures/18278816_424770587886899_2217567506193454567_o.jpg") no-repeat 50% 12%;
+  background-size: 400%;
+  flex-shrink: 0;
+}
+
+.slide__teacher-ava figcaption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--black);
+  color: var(--white);
+  text-decoration: none;
+  padding: 0 6px;
+}
+
+.info-list {
+  font-size: 26px;
+  line-height: 1.65;
+}
+
+.slide__teacher-info-list {
+  margin-left: 2em;
+}
+.slide__teacher-info-list.info-list {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.slide__teacher-info-list li {
+  margin-bottom: 1em;
+}
+
+.slide_hillel-bg {
+  background: url("../pictures/cover-h.jpg") no-repeat 0 0;
+  background-size: 100% 100%;
+}
+
+.slide_pt {
+  padding-top: 50px;
+}
+
+.slide__tools-list {
+  justify-content: space-around;
+}
+
+.slide__list ul {
+  flex: 1 0 0;
+}
+
+.slide .slide__list ol + ol {
+  margin-left: 2em;
+  counter-reset: list 9;
+}
+
+.slide_repo-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slide_repo-links a {
+  font-size: 80px;
+}
