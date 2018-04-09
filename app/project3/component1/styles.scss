@@ -1,0 +1,69 @@
+.uib-datepicker-popup {
+  padding: 0;
+  border: 0 !important;
+
+  .btn.btn-default {
+    box-shadow: none;
+  }
+
+  table {
+    td {
+
+      button {
+        padding: 10px;
+
+        &:hover {
+
+          // next or prev month
+          .text-muted,
+          // current day
+          .text-info {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+
+  .uib-button-bar {
+    overflow: hidden;
+    padding: 10px;
+  }
+
+  &.dropdown-menu {
+    z-index: 2000;
+  }
+
+  .glyphicon-chevron-right {
+    &::before {
+      content: "\e409";
+    }
+  }
+
+  .glyphicon-chevron-left {
+    &::before {
+      content: "\e408";
+    }
+  }
+
+  .glyphicon-chevron-right,
+  .glyphicon-chevron-left {
+    &::before {
+      font-size: 26px;
+    }
+  }
+
+  .uib-right,
+  .uib-left,
+  .uib-title {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  // prevents datepicker flow off the viewport on mobile devices
+  .uib-datepicker-popup {
+    left: unset !important;
+    right: 20px;
+  }
+}
