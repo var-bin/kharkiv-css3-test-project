@@ -35,20 +35,17 @@
   width: @carousel-holder-width;
 }
 
-.items-carousel-list {
-  width: @carousel_items-carousel-list-width;
-  min-height: @carousel_items-carousel-list-min_height;
-
-  .item-carousel {
-    display: block;
-    text-align: center;
-    float: left;
-  }
-}
-
 .item-carousel {
   .item-carousel-image {
     height: @carousel_item-carousel-image-height;
+  }
+
+  .short-describe {
+    margin: 6px 0 4px;
+    font-size: @carousel_item-carousel_short-describe-font_size;
+    line-height: @carousel_item-carousel_short-describe-line_height;
+    height: @carousel_item-carousel_short-describe-height;
+    overflow: hidden;
   }
 
   .item-carousel-describe {
@@ -62,13 +59,16 @@
       }
     }
   }
+}
 
-  .short-describe {
-    margin: 6px 0 4px;
-    font-size: @carousel_item-carousel_short-describe-font_size;
-    line-height: @carousel_item-carousel_short-describe-line_height;
-    height: @carousel_item-carousel_short-describe-height;
-    overflow: hidden;
+.items-carousel-list {
+  width: @carousel_items-carousel-list-width;
+  min-height: @carousel_items-carousel-list-min_height;
+
+  .item-carousel {
+    display: block;
+    text-align: center;
+    float: left;
   }
 }
 
