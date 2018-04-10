@@ -20,7 +20,6 @@
   --attribute-name-color: #9cdcfe;
   --attribute-value-color: #ce9178;
   --attribute-hover-color: #fff;
-  
   --element-content-color: #d4d4d4;
   --border-color: #a2a2a2;
   --data-attr-color: #a2a2a2;
@@ -31,7 +30,7 @@
   --content-hover-color: #fff;
   --content-padding: var(--tag-padding);
   
-   /* element
+  /* element
   ----------------------------------------------------*/
   --element-title-color: var(--data-attr-color);
   --element-title-border_color: var(--data-attr-color);
@@ -190,6 +189,7 @@ h2 {
 .html-element__close-tag:hover,
 .html-element__open-tag:hover {
   cursor: pointer;
+
   --tag-border-color: var(--tag-color);
 }
 

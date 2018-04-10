@@ -5,6 +5,7 @@
   font-size: 100px;
   color: #fff;
 }
+
 #cover p {
   margin: 10px 0 0;
   font-style: italic;
@@ -167,9 +168,9 @@ ul.tree-view::before {
   border: 2px solid #000;
   content: "";
   position: absolute;
-  top: .3em;
-  left: .5em;
-  box-shadow: -9px -14px 0px -11px #ccc, -9px -14px 0 -9px #000;
+  top: 0.3em;
+  left: 0.5em;
+  box-shadow: -9px -14px 0 -11px #ccc, -9px -14px 0 -9px #000;
   text-align: center;
   text-indent: 0;
   line-height: 1.2;
@@ -188,7 +189,7 @@ ul.tree-view::before {
 }
 
 .shower.is-black .slide code, .slide kbd, .slide samp {
-  background: rgba(88,90,94,.5);
+  background: rgba(88,90,94,0.5);
 }
 
 .slide.slide__video h2 {
