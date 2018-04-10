@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css:lint": "stylelint ./app/**/*"
+    "css:lint": "stylelint ./app/**/*",
+    "prettier": "prettier ./app/**/*"
   },
   "repository": {
     "type": "git",
