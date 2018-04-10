@@ -321,11 +321,13 @@ body {
 /* @keyframes io17-o__item rotate
 --------------------------------------------------------*/
 @keyframes io17-o__item {
-  from, 40% {
+  from,
+  40% {
     transform: rotate3d(0, 0, 1, -60deg);
   }
 
-  80%, to {
+  80%,
+  to {
     transform: rotate3d(0, 0, 1, -88deg);
   }
 }
@@ -346,7 +348,7 @@ body {
   }
 
   to {
-    height: var(--i__stick-item-height;
+    height: var(--i__stick-item-height);
   }
 }
 

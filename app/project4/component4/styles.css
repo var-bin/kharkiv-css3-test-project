@@ -94,7 +94,7 @@
   columns: 3;
   -webkit-column-gap: 15px;
   -moz-column-gap: 15px;
-  column-gap: 15px
+  column-gap: 15px;
 }
 
 .slide ol.triple li {
@@ -188,8 +188,10 @@ ul.tree-view::before {
   background: 0 0;
 }
 
-.shower.is-black .slide code, .slide kbd, .slide samp {
-  background: rgba(88,90,94,0.5);
+.shower.is-black .slide code,
+.slide kbd,
+.slide samp {
+  background: rgba(88, 90, 94, 0.5);
 }
 
 .slide.slide__video h2 {
@@ -301,7 +303,6 @@ ul.al-list .al-link.al-link__shower::before {
 .email-support-wrapper .email-support {
   width: 65%;
   display: block;
-
 }
 
 .email-support img {

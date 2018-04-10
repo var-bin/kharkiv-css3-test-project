@@ -6,15 +6,15 @@
   --body-font_family: "Courier New", Courier, monospace;
   --body-font_size: 1rem;
   --body-line_height: 1.5rem;
-  --body-font: var(--body-font_size)/var(--body-line_height) var(--body-font_family);
-  
+  --body-font: var(--body-font_size) / var(--body-line_height) var(--body-font_family);
+
   /* tag
   ----------------------------------------------------*/
   --tag-color: #569cd6;
   --tag-padding: 0.8em;
   --tag-border-color: var(--border-color);
   --corner-brace-color: #808080;
-  
+
   /* attribute
   ----------------------------------------------------*/
   --attribute-name-color: #9cdcfe;
@@ -23,18 +23,18 @@
   --element-content-color: #d4d4d4;
   --border-color: #a2a2a2;
   --data-attr-color: #a2a2a2;
-  --attribute-padding: var(--tag-padding);  
-  
+  --attribute-padding: var(--tag-padding);
+
   /* content
   ----------------------------------------------------*/
   --content-hover-color: #fff;
   --content-padding: var(--tag-padding);
-  
+
   /* element
   ----------------------------------------------------*/
   --element-title-color: var(--data-attr-color);
   --element-title-border_color: var(--data-attr-color);
-  
+
   /* blockquote
   ----------------------------------------------------*/
   --blockquote-color: var(--data-attr-color);
@@ -348,22 +348,22 @@ h2 {
     flex-direction: column;
     align-items: flex-start;
   }
-  
+
   .html-element__content {
     margin: 1em 0 1em 2em;
   }
-  
+
   .html-element__open-tag::before {
     top: -10em;
     bottom: auto;
   }
-  
+
   .html-element__open-tag::after {
     top: -8.2em;
     height: 8em;
     bottom: auto;
   }
-  
+
   .html-element::after {
     top: 0;
     bottom: 0;
@@ -374,7 +374,7 @@ h2 {
     border-left: 0;
     z-index: -1;
   }
-  
+
   .html-element::before {
     top: 1em;
   }
