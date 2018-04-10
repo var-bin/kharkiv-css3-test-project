@@ -1,33 +1,25 @@
 :root {
   --body-bg: #536dfe;
-
   --brand-main-color: #fff;
   --brand-second-color: #40e7b8;
-
   --l-io17-hashtag-holder-width: 10.2em;
   --l-io17-hashtag-holder-height: 10.2em;
-
   --hashtag__item_v-width: 0.5em;
   --hashtag__item_v-height: 2.5em;
   --hashtag__item_h-width: 0.5em;
   --hashtag__item_h-height: 2.5em;
-
   --i__dot-item-width: 1.8em;
   --i__dot-item-height: 1.8em;
   --i__stick-item-width: 1.25em;
   --i__stick-item-height: 10.3em;
-
   --l-io17-o-holder__item-width: 8.8em;
   --l-io17-o-holder__item-height: 12em;
   --o__item-height: 2.5em;
   --o__item-width: 0.4em;
-
   --io17-digit__item-width: 1.125em;
   --io17-digit__item-height: 13.25em;
-
   --io17-digit2__item-part1-width: 6.2em;
   --io17-digit2__item-part1-height: var(--io17-digit__item-width);
-
   --io17-digit2__item-part2-width: var(--io17-digit__item-width);
   --io17-digit2__item-part2-height: 14.5em;
 }
@@ -329,11 +321,13 @@ body {
 /* @keyframes io17-o__item rotate
 --------------------------------------------------------*/
 @keyframes io17-o__item {
-  from, 40% {
+  from,
+  40% {
     transform: rotate3d(0, 0, 1, -60deg);
   }
 
-  80%, to {
+  80%,
+  to {
     transform: rotate3d(0, 0, 1, -88deg);
   }
 }
@@ -354,7 +348,7 @@ body {
   }
 
   to {
-    height: var(--i__stick-item-height;
+    height: var(--i__stick-item-height);
   }
 }
 
