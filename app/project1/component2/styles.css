@@ -1,10 +1,7 @@
 /* custom styles */
 
-.slide::after {
-  background-image: url("../pictures/ribbon-180.svg");
-  top: auto;
-  right: 30px;
-  bottom: -35px;
+.slide::after {  background-image: url("../pictures/ribbon-180.svg");
+  top: auto;  right: 30px;  bottom: -35px;
 }
 
 .slide .photographer-credit {
