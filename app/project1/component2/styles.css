@@ -16,7 +16,8 @@ background-color: var(--black);
 
    bottom:
    2em
-   ;}
+   ;
+  }
 
 .photographer-credit span {
   display: inline-block;
