@@ -52,7 +52,7 @@ gulp.task("autoprefixer", () => {
     };
   }
 
-  return gulp.src(STYLES_PATH, { base: "app"})
+  return gulp.src(STYLES_PATH, { base: "app" })
     .pipe(postcss(callback))
     .pipe(gulp.dest(DIST_PATH));
 });
