@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css:lint": "stylelint ./app/**/*",
-    "prettier": "prettier ./app/**/*"
+    "css:lint": "gulp css:lint",
+    "css:lint-fix": "gulp css:lint-fix",
+    "prettier": "prettier ./app/project*/**/*",
+    "precommit": "lint-staged"
   },
   "repository": {
     "type": "git",
@@ -26,10 +28,23 @@
   },
   "homepage": "https://github.com/var-bin/kharkiv-css3-test-project#readme",
   "devDependencies": {
+    "autoprefixer": "^8.2.0",
+    "gulp": "4.0.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-postcss": "^7.0.1",
+    "gulp-stylelint": "^7.0.0",
     "husky": "^0.15.0-rc.13",
     "lint-staged": "^7.0.4",
+    "postcss-less": "^1.1.5",
+    "postcss-scss": "^1.0.5",
     "prettier": "1.11.1",
     "stylelint": "^9.2.0",
     "stylelint-config-standard": "^18.2.0"
+  },
+  "lint-staged": {
+  "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }
