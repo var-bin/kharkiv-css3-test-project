@@ -7,7 +7,7 @@ const autoprefixer = require("autoprefixer");
 const path = require("path");
 
 const APP_PATH = path.join(__dirname, "app");
-const STYLES_PATH = path.join(APP_PATH, "**/*");
+const STYLES_PATH = path.join(APP_PATH, "project*/**/*");
 const DIST_PATH = path.join(APP_PATH, "dist");
 
 
