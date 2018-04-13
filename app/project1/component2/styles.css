@@ -1,22 +1,23 @@
 /* custom styles */
 
-.slide::after {  background-image: url("../pictures/ribbon-180.svg");
-  top: auto;  right: 30px;  bottom: -35px; }
+.slide::after {
+  background-image: url("../pictures/ribbon-180.svg");
+  top: auto;
+  right: 30px;
+  bottom: -35px;
+}
 
 .slide .photographer-credit {
-background-color: var(--black);
-          color: var(--white);
-  text-decoration: none;padding: 4px 6px;font: bold 12px/1.2 var(--photographer-credit-font_family);
-  border-radius:3px
-  ;
-  position:
-   absolute;
-
-   left: 2em;
-
-   bottom:
-   2em
-   ;}
+  background-color: var(--black);
+  color: var(--white);
+  text-decoration: none;
+  padding: 4px 6px;
+  font: bold 12px/1.2 var(--photographer-credit-font_family);
+  border-radius: 3px;
+  position: absolute;
+  left: 2em;
+  bottom: 2em;
+}
 
 .photographer-credit span {
   display: inline-block;
