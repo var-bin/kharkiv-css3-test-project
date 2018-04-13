@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css:lint": "stylelint ./app/**/*",
+    "css:lint": "gulp css:lint",
+    "css:lint-fix": "gulp css:lint-fix",
     "prettier": "prettier ./app/**/*"
   },
   "repository": {
@@ -28,7 +29,9 @@
   "devDependencies": {
     "autoprefixer": "^8.2.0",
     "gulp": "4.0.0",
+    "gulp-cli": "^2.0.1",
     "gulp-postcss": "^7.0.1",
+    "gulp-stylelint": "^7.0.0",
     "husky": "^0.15.0-rc.13",
     "lint-staged": "^7.0.4",
     "postcss-less": "^1.1.5",
