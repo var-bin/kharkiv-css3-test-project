@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "css:lint": "gulp css:lint",
     "css:lint-fix": "gulp css:lint-fix",
-    "prettier": "prettier ./app/**/*"
+    "prettier": "prettier ./app/project*/**/*"
   },
   "repository": {
     "type": "git",
@@ -39,5 +39,10 @@
     "prettier": "1.11.1",
     "stylelint": "^9.2.0",
     "stylelint-config-standard": "^18.2.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run css:lint-fix && npm run prettier -- --write"
+    }
   }
 }
