@@ -4,17 +4,15 @@
   top: auto;  right: 30px;  bottom: -35px; }
 
 .slide .photographer-credit {
-background-color: var(--black);
-          color: var(--white);
+  background-color: var(--black);
+  color: var(--white);
   text-decoration: none;padding: 4px 6px;font: bold 12px/1.2 var(--photographer-credit-font_family);
   border-radius:3px
   ;
   position:
    absolute;
-
-   left: 2em;
-
-   bottom:
+  left: 2em;
+  bottom:
    2em
    ;  }
 
