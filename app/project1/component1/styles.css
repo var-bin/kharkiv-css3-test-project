@@ -19,6 +19,10 @@
   bottom: 2em;
 }
 
+my-awesome-custome-element {
+  color: #000;
+}
+
 .photographer-credit span {
   display: inline-block;
   padding: 2px 3px;
