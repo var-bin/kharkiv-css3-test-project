@@ -39,10 +39,14 @@
     "postcss-scss": "^1.0.5",
     "prettier": "1.11.1",
     "stylelint": "^9.2.0",
-    "stylelint-config-standard": "^18.2.0"
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-declaration-block-no-ignored-properties": "1.1.0",
+    "stylelint-declaration-strict-value": "1.0.4",
+    "stylelint-no-browser-hacks": "1.1.0",
+    "stylelint-z-index-value-constraint": "1.0.0"
   },
   "lint-staged": {
-  "*.js": [
+    "*.js": [
       "eslint --fix",
       "git add"
     ]
