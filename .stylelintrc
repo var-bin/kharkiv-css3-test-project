@@ -1,7 +1,9 @@
 {
   "extends": "stylelint-config-standard",
   "plugins": [
-    "stylelint-declaration-block-no-ignored-properties"
+    "stylelint-declaration-block-no-ignored-properties",
+    "stylelint-declaration-strict-value",
+    "stylelint-no-browser-hacks/lib"
   ],
   "rules": {
     "selector-type-no-unknown": [
@@ -13,6 +15,16 @@
         ]
       }
     ],
-    "plugin/declaration-block-no-ignored-properties": true
+    "plugin/declaration-block-no-ignored-properties": true,
+    "scale-unlimited/declaration-strict-value": "color",
+    "plugin/no-browser-hacks": [
+      true,
+      {
+        browsers: [
+          "last 2 versions",
+          "ie >=7"
+        ]
+      }
+    ]
   }
 }
