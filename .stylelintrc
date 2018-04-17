@@ -3,7 +3,8 @@
   "plugins": [
     "stylelint-declaration-block-no-ignored-properties",
     "stylelint-declaration-strict-value",
-    "stylelint-no-browser-hacks/lib"
+    "stylelint-no-browser-hacks/lib",
+    "stylelint-z-index-value-constraint"
   ],
   "rules": {
     "selector-type-no-unknown": [
@@ -16,7 +17,10 @@
       }
     ],
     "plugin/declaration-block-no-ignored-properties": true,
-    "scale-unlimited/declaration-strict-value": "color",
+    "scale-unlimited/declaration-strict-value": [
+      "color",
+      "z-index"
+    ],
     "plugin/no-browser-hacks": [
       true,
       {
@@ -25,6 +29,10 @@
           "ie >=7"
         ]
       }
-    ]
+    ],
+    "plugin/z-index-value-constraint": {
+      "min": 1,
+      "max": 10
+    }
   }
 }
