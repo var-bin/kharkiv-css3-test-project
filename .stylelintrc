@@ -4,9 +4,15 @@
     "stylelint-declaration-block-no-ignored-properties"
   ],
   "rules": {
-    "selector-type-no-unknown": [ true, {
-      "ignoreTypes": ["/^survey-builder-/", "custom-type"]
-    }],
+    "selector-type-no-unknown": [
+      true,
+      {
+        "ignoreTypes": [
+          "/^survey-builder-/",
+          "custom-type"
+        ]
+      }
+    ],
     "plugin/declaration-block-no-ignored-properties": true
   }
 }
