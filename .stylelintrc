@@ -11,7 +11,7 @@
       true,
       {
         "ignoreTypes": [
-          "/^survey-builder-/",
+          "/^my-awesome-custome-/",
           "custom-type"
         ]
       }
