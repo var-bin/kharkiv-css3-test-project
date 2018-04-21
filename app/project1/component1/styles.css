@@ -20,7 +20,7 @@
 }
 
 my-awesome-custome-element {
-  color: #000;
+  color: var(--my-awesome-custome-element-color);
 }
 
 .photographer-credit span {

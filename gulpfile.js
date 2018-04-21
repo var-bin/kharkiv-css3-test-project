@@ -14,7 +14,6 @@ const DIST_PATH = path.join(APP_PATH, "dist");
 gulp.task("css:lint", () => {
   return gulp.src(STYLES_PATH)
     .pipe(gulpStylelint({
-      failAfterError: false,
       reporters: [{
         formatter: "verbose",
         console: true
