@@ -4,7 +4,7 @@
   "description": "Repo for testing tools such as Stylelint, Prettier, Autoprefixer, ext.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run css:lint",
     "css:lint": "gulp css:lint",
     "css:lint-fix": "gulp css:lint-fix",
     "prettier": "prettier ./app/project*/**/*",
