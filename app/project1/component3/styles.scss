@@ -9,7 +9,7 @@
   table {
     td {
       button {
-        padding: 10px;
+        padding: 0;
 
         &:hover {
           // next or prev month
@@ -29,7 +29,7 @@
   }
 
   &.dropdown-menu {
-    z-index: 2000;
+    z-index: var(--dropdown-menu-zindex);
   }
 
   .glyphicon-chevron-right {

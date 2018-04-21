@@ -46,9 +46,20 @@
     "stylelint-z-index-value-constraint": "1.0.0"
   },
   "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
+    "*.css": [
+      "stylelint app/project*/**/*.css --fix"
+    ],
+    "*.less": [
+      "stylelint app/project*/**/*.less --syntax less --fix"
+    ],
+    "*.scss": [
+      "stylelint app/project*/**/*.scss --syntax scss --fix"
+    ],
+    "*.sass": [
+      "stylelint app/project*/**/*.sass --syntax sass --fix"
+    ],
+    "*.{css,less,scss,sass}": [
+      "prettier app/project*/**/* --write"
     ]
   }
 }
