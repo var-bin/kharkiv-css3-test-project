@@ -11,7 +11,8 @@
       button {
         padding: 0;
 
-        &:hover {
+        &:hover,
+        &:focus {
           // next or prev month
           .text-muted,
           // current day
