@@ -7,12 +7,7 @@
   }
 
   table {
-    td {
-      button {
-        padding: 0;
-
-        &:hover,
-        &:focus {
+    td {      button {        padding: 0;        &:hover, &:focus {
           // next or prev month
           .text-muted,
           // current day
